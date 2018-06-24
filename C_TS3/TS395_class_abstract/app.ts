@@ -40,3 +40,5 @@ class Car extends Transp {
 let car1:Car=new Car("2870-ОГО");
 
 car1.show();
+
+// let transp1:Transp=new Transp; // ошибка
