@@ -6,6 +6,7 @@ module.exports = {
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.js']
   },
+  devtool: 'source-map',
   module: {
     loaders: [
       { test: /\.ts$/, loader: 'ts-loader' }
