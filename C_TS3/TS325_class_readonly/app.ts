@@ -18,7 +18,7 @@ class Car {
         console.log('car numb='+this.num+' wheels='+this.wheels);
         
         // readonly-свойство больше нигде изменить нельзя
-        // this.wheels=6; - ошибка
+        // this.wheels=6; // ошибка
     }
 
 }

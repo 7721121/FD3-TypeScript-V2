@@ -16,10 +16,10 @@ let f2:(v:number)=>void=null;
 let f3:(v:number|string)=>void=null;
 
 f1=test1;
-// f1=test2; - ошибка
+// f1=test2; // ошибка
 f1=test3;
 
-// f2=test1; - ошибка
+// f2=test1; // ошибка
 f2=test2;
 f2=test3;
 

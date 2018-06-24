@@ -95,8 +95,8 @@ let trship:Transp=ship1;
 
 // переменной класса-потомка нельзя присвоить 
 // объект класса-предка напрямую
-// let car2:Car=trcar; - ошибка
-// let ship2:Ship=trship; - ошибка
+// let car2:Car=trcar; // ошибка
+// let ship2:Ship=trship; // ошибка
 // присвоить можно только с явным преобразованием
 let car3:Car=<Car>trcar;
 let ship3:Ship=trship as Ship;

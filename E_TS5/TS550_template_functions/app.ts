@@ -105,4 +105,4 @@ let item31:Car=carsStorageArea.getItem(carIndex2);
 // и можно указать тИповый аргумент неправильно
 let item32:Computer=carsStorageArea.getItem<Computer>(carIndex2);
 // TypeScript проверяет типы только во время компиляции
-//let item33:Computer=carsStorageArea.getItem<Car>(carIndex2); - ошибка
+//let item33:Computer=carsStorageArea.getItem<Car>(carIndex2); // ошибка

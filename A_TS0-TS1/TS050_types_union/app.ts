@@ -5,4 +5,4 @@ console.log(position);
 position="top";
 console.log(position);
 
-// position=true; - ошибка
+// position=true; // ошибка

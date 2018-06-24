@@ -39,7 +39,7 @@ let car3:Car={
     
     show: function(this:Car,prefix:string):void {
         console.log(prefix+" "+this.num+" "+this.model);
-        //console.log(prefix+" "+this.price); - ошибка
+        //console.log(prefix+" "+this.price); // ошибка
     }
 
 };

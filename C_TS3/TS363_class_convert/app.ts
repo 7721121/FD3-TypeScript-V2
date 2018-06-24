@@ -63,4 +63,4 @@ console.log('car2 это House?', car2 instanceof House);
 let trainHash={
     speed:100,
 };
-// let car3:Car=<Car>trainHash; - ошибка
+// let car3:Car=<Car>trainHash; // ошибка

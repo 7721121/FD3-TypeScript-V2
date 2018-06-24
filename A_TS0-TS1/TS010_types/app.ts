@@ -1,7 +1,7 @@
 var b:boolean=true;
 
 var s1:string="Hello";
-// var s2:string=5; - ошибка
+// var s2:string=5; // ошибка
 
 var n:number=555;
 
