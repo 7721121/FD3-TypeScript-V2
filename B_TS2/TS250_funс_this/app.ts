@@ -6,7 +6,8 @@ let car1={
     
     show: function(prefix:string) {
         console.log(prefix+" "+this.num+" "+this.model);
-        console.log(prefix+" "+this.price);
+        // обращаемся к несуществующему свойству - ошибки нет, т.к. this:any
+        console.log(prefix+" "+this.price); 
     }
 
 };
@@ -26,7 +27,8 @@ let car2:Car={
     
     show: function(prefix:string):void {
         console.log(prefix+" "+this.num+" "+this.model);
-        console.log(prefix+" "+this.price);
+        // обращаемся к несуществующему свойству - ошибки нет, т.к. this:any
+        console.log(prefix+" "+this.price); 
     }
 
 };
@@ -39,6 +41,7 @@ let car3:Car={
     
     show: function(this:Car,prefix:string):void {
         console.log(prefix+" "+this.num+" "+this.model);
+        // теперь к price обратиться нельзя - TS знает что this:Car
         //console.log(prefix+" "+this.price); // ошибка
     }
 
